@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dove Foundation</title>
+    <link rel="stylesheet" href="style.css"><style>
+        * {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif; margin:0}
+        .mySlides {display: none}
+        img {vertical-align: middle;}
+        
+         /*Slideshow container*/
+        .slideshow-container {
+          max-width: 1000px;
+          position: relative;
+          margin: auto;
+          border-radius: 22px;
+        }
+        
+        /* Next & previous buttons */
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+          font-size: 28px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
+        
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+          border-radius: 12px;
+        }
+        
+        /* The dots/bullets/indicators */
+        .dot {
+          cursor: pointer;
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #ffffff;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+        
+        .active, .dot:hover {
+          background-color: #3b3a3a;
+        }
+        
+        /* Fading animation */
+        .fade {
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .prev, .next,.text {font-size: 11px}
+        }
+        </style>
+
+</head>
+<body>
+  
+  <div class="header">
+    <div class="logo">
+      <img class="logo-img" src="Dove Logo.jpeg" alt="logo"></img>
+    </div>
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+      
+      <ul class="menu__box">
+        <li><a class="menu__item" href="#">Home</a></li>
+        <li><a class="menu__item" href="#">Gallery</a></li>
+        <li><a class="menu__item" href="#">Contact Us</a></li>
+        <li><a class="menu__item" href="#">Mission</a></li>
+      </ul>
+    </div>
+  </div>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Dove Foundation</h1>
+            <p><b>LOVE FOR GOD & HUMANITY</b></p>
+        </div>
+    </div>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="IMG_20230905_122937_938.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="IMG_20230905_122858_606.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="IMG_20230905_122938_161.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+            <img src="IMG_20230905_122858_999.jpg" style="width:100%">
+          </div>
+        
+        <div class="mySlides fade">
+            <img src="IMG_20230905_122924_374.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+            <img src="IMG_20230905_122938_215.jpg" style="width:100%">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
+        </div>
+
+    <div class="mission">
+      <h2>MISSION</h2>
+      <p>
+        Our mission is enriched in four metrics: <b>transparency</b>,<b>service to humanity</b>,<b>peace</b> and above all works of <b>integrity</b>.
+        The youth,in most cases,the face of the world,
+        we recognize that integrity is the mother's milk to a better future of equity,prosperity.
+        In that case the<b> Dove Foundation</b> sees a future of united youth,responsible youth and caring youth. In hindsight together we can.
+      </p>
+      <div class="DONATE">
+        <button class="button">Donate</button>
+      </div>
+    </div>
+
+    <div class="tdy">
+      <p>Make a difference <br> in a child's life <br> today.</p>
+    </div>
+
+    <div class="vision">
+      <h1>VISION</h1>
+      <p>To leave a positive impact on the Society</p>
+    </div>
+
+    <div class="support">
+      With your support,we can continue to help the youth stay away from drugs,get education and explore their creative side
+    </div>
+
+    <div class="cardcont">
+      <div class="card">
+        <img src="photos/IMG_20230905_122924_565.jpg" alt="">
+        <div class="text-overlay">
+          Now,more than ever,the <span>Youth</span> need your help to <b>survive</b> and <b>thrive</b><br>
+          <button class="btn">Donate Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="history">
+      <div class="history-bg">
+        <h1>HISTORY OF DOVE FOUNDATION</h1>
+        <p>
+          Dove Foundation was started in the year 2022 JUNE the 9th exactly during the eve of the 2022 elections.
+          The first source of inspiration was the youth and service to humanity.
+          The organisation was baptized the name <b>DOVE</b> to signify <b>peace</b> and <b>hope</b>.
+            
+          Dove Foundation is an aftermath of a realization that the values of the youth has faded away
+          and as a result they have sought solaces to behaviours unbecoming engaging
+          in drug abuse and many more.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--footer-->
+<footer>
+    <h3>Our Social Media</h3>
+    <div class="wrappa">
+        <div class="icon facebook">
+            <span><i class="ri-facebook-fill"></i></span>
+		</div>
+		<div class="icon instagram">
+			<span><i class="ri-instagram-line"></i></span>
+		</div>
+		<div class="icon twitter">
+			<span><i class="ri-twitter-fill"></i></span>
+		</div>
+	</div>
+    <div class="co">
+        &copy; 2023 <span>DOVE FOUNDATION</span>. All rights reserved.
+    </div>
+</footer>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="index.js"></script>
+</body>
+</html>
