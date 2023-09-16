@@ -130,7 +130,7 @@ span::after {
 
 .hero::before {
     content: "";
-    background-image: url(photos/IMG_20230905_122938_215.jpg);
+    background-image: url(assets/photos/IMG_20230905_122938_215.jpg);
     background-size: cover;
     position: absolute;
     top: 0;
