@@ -219,6 +219,20 @@ button{
     color: blueviolet;
 }
 
+.h h1{
+  margin-bottom: 0;
+  padding: 30px;
+  font-size: 1.5rem;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.h span{
+  color: rgb(235, 212, 82);
+}
+
 .cardcont{
     display: inline-block;
     position: relative;
