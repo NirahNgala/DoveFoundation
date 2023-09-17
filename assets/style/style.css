@@ -445,6 +445,7 @@ footer h3{
 }
 .wrappa .icon {
     margin: 10px 17px;
+    text-decoration: none;
     text-align: center;
     cursor: pointer;
     display: flex;
@@ -467,6 +468,7 @@ footer h3{
     transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .wrappa .icon span i {
+    text-decoration: none;
     line-height: 80px;
     font-size: 30px;
     color: #000000;
