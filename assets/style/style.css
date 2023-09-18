@@ -459,6 +459,11 @@ footer h3{
     justify-content: center;
 }
 
+.wrappa a{
+  text-decoration: none;
+}
+
+
 .wrappa .i {
     text-decoration: none;
 }
