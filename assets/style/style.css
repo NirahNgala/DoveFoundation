@@ -478,7 +478,7 @@ footer h3{
     flex-direction: column;
     position: relative;
     z-index: 2;
-    text decoration: none;
+    text-decoration: none;
     transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .wrappa .icon span {
