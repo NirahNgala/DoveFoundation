@@ -191,6 +191,7 @@ button{
     text-align: center;
     margin-bottom: 70px;
     font-weight: 600;
+    font-style: italic;
     font-size: 2.7rem;
     color: #1f860f;
     font-family: 'comic Sans ms', sans-serif;
@@ -561,7 +562,7 @@ footer h3{
     }
 
     .btn{
-        font-size: 2.1vw;
+        font-size: 3.1vw;
     }
 
     .button{
